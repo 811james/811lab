@@ -8,74 +8,74 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">811实验室</div>
-            <ul class="nav-links">
-                <li><a href="#home">首页</a></li>
-                <li><a href="#projects">项目</a></li>
+    <div class="container">
+        <!-- 侧边栏导航 -->
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h1>811实验室</h1>
+            </div>
+            <ul class="sidebar-menu">
+                <li><a href="#home" class="active">首页</a></li>
+                <li><a href="#projects">项目展示</a></li>
+                <li><a href="#smart-home">智能家居</a></li>
                 <li><a href="#about">关于我们</a></li>
                 <li><a href="#contact">联系方式</a></li>
             </ul>
         </nav>
-    </header>
 
-    <main>
-        <section id="home" class="hero">
-            <h1>欢迎来到811实验室</h1>
-            <p>探索创新，追求卓越</p>
-        </section>
+        <!-- 主内容区域 -->
+        <main class="main-content">
+            <section id="home" class="section">
+                <h1>欢迎来到811实验室</h1>
+                <p>探索创新，追求卓越</p>
+            </section>
 
-        <section id="projects" class="projects">
-            <h2>进行中的项目</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>基于物联网的智能家居</h3>
-                    <p>本项目致力于通过物联网技术实现家庭设备的智能化管理与自动化控制，提升居住体验与安全性。</p>
-                    <ul class="feature-list">
-                        <li>视频监控</li>
-                        <li>家电控制</li>
-                        <li>灯光控制</li>
-                        <li>手机端和Web端远程控制</li>
-                        <li>内网穿透实现外网访问</li>
-                        <li>NFC卡片控制（通过卡片实现灯的开关）</li>
-                        <li>语音控制（集成大模型接口实现随机答复）</li>
-                        <li>基础功能：音乐播放、语音控制</li>
-                        <li>硬件设备和手机端分别实现，手机端类似小爱同学</li>
-                        <li>室内恒温控制</li>
-                        <li>人脸识别门禁</li>
-                        <li>3D房型图（根据房子结构构建3D图，根据图片控制）</li>
-                        <li>安防功能（离家警戒、来访报警驱离）</li>
-                        <li>微信通知（灯光开关、报警等信息推送）</li>
-                        <li>自动化（如通过雨滴传感器，下雨自动关窗）</li>
-                    </ul>
-                    <div class="project-tags">
-                        <span class="tag">物联网</span>
-                        <span class="tag">智能家居</span>
-                        <span class="tag">自动化</span>
+            <section id="projects" class="section">
+                <h2>项目展示</h2>
+                <div class="project-grid">
+                    <div class="project-card">
+                        <h3>基于物联网的智能家居</h3>
+                        <p>本项目致力于通过物联网技术实现家庭设备的智能化管理与自动化控制，提升居住体验与安全性。</p>
+                        <ul class="feature-list">
+                            <li>视频监控</li>
+                            <li>家电控制</li>
+                            <li>灯光控制</li>
+                            <li>手机端和Web端远程控制</li>
+                            <li>内网穿透实现外网访问</li>
+                            <li>NFC卡片控制（通过卡片实现灯的开关）</li>
+                            <li>语音控制（集成大模型接口实现随机答复）</li>
+                            <li>基础功能：音乐播放、语音控制</li>
+                            <li>硬件设备和手机端分别实现，手机端类似小爱同学</li>
+                            <li>室内恒温控制</li>
+                            <li>人脸识别门禁</li>
+                            <li>3D房型图（根据房子结构构建3D图，根据图片控制）</li>
+                            <li>安防功能（离家警戒、来访报警驱离）</li>
+                            <li>微信通知（灯光开关、报警等信息推送）</li>
+                            <li>自动化（如通过雨滴传感器，下雨自动关窗）</li>
+                        </ul>
+                        <div class="project-tags">
+                            <span class="tag">物联网</span>
+                            <span class="tag">智能家居</span>
+                            <span class="tag">自动化</span>
+                        </div>
                     </div>
                 </div>
-                <!-- 更多项目卡片 -->
-            </div>
-        </section>
+            </section>
 
-        <section id="about" class="about">
-            <h2>关于我们</h2>
-            <p>811实验室致力于前沿技术研究和创新项目开发。</p>
-        </section>
+            <section id="about" class="section">
+                <h2>关于我们</h2>
+                <p>811实验室致力于前沿技术研究和创新项目开发。</p>
+            </section>
 
-        <section id="contact" class="contact">
-            <h2>联系我们</h2>
-            <div class="contact-info">
-                <p><i class="fas fa-envelope"></i> 邮箱：m202473806@hust.edu.cn</p>
-                <p><i class="fas fa-map-marker-alt"></i> 地址：华中科技大学人工智能与自动化学院</p>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 811实验室. All rights reserved.</p>
-    </footer>
+            <section id="contact" class="section">
+                <h2>联系我们</h2>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> 邮箱：m202473806@hust.edu.cn</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 地址：华中科技大学人工智能与自动化学院</p>
+                </div>
+            </section>
+        </main>
+    </div>
 
     <script src="js/main.js"></script>
 </body>

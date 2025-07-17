@@ -38,6 +38,17 @@
    如果队友已向远程上的分支进行了提交，并且他们希望将这些更改反映到其本地环境中，则开发人员将使用此命令。
 7. git push
    使用本地对分支所做的任何提交来更新远程存储库。
+8. # 添加远程仓库
+git remote add origin https://github.com/username/repository.git
+
+# 修改远程仓库 URL
+git remote set-url origin https://github.com/username/new-repository.git
+
+# 删除远程仓库关联
+git remote remove origin
+
+# 重命名远程仓库
+git remote rename origin upstream
 
 
 # Conda
